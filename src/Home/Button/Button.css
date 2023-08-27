@@ -1,0 +1,35 @@
+.button {
+  background: rgb(0, 0, 0);
+  width: 15%;
+  min-height: 20px;
+  text-align: center;
+  color: rgb(242, 242, 242);
+  cursor: pointer;
+  padding: auto;
+  transition: all 0.3s;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.button p {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button {
+    width: 80%;
+  }
+}

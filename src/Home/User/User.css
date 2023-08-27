@@ -1,0 +1,55 @@
+.user_main {
+  cursor: pointer;
+  position: relative;
+  height: auto;
+  min-height: 30px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 25px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.user_main:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.user_main img {
+  animation: animateChecks 0.5s;
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  margin: 0 auto;
+}
+
+.user_name {
+  display: block;
+  font-family: 'Abel', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: rgb(87, 136, 199);
+  color: rgb(255, 255, 255);
+  border-radius: 0px 0px 20px 20px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.user_select {
+  animation: animateChecks 0.3s;
+  top: 30px;
+  right: 30px;
+  position: absolute;
+}
+
+@keyframes animateChecks {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
